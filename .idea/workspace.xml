@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e7fac4f-8a13-45c5-bbf7-e82986913573" name="Default Changelist" comment="url path changed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemapindex.go" beforeDir="false" afterPath="$PROJECT_DIR$/sitemapindex.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemapindex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sitemapindex_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="5e7fac4f-8a13-45c5-bbf7-e82986913573" name="Default Changelist" comment="snabb -&gt; je4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +80,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="url path changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="url path changed" />
+    <MESSAGE value="snabb -&gt; je4" />
+    <option name="LAST_COMMIT_MESSAGE" value="snabb -&gt; je4" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -97,9 +91,25 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604933397538" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1604933348280">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1604933460782">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604933348280" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604933460782" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1604933460781">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604933460781" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1604933460781">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604933460781" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1604933460781">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604933460781" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1604933483426">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604933483426" />
   </component>
 </project>
