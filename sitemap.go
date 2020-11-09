@@ -36,6 +36,8 @@ type URL struct {
 	LastMod    *time.Time `xml:"lastmod,omitempty"`
 	ChangeFreq ChangeFreq `xml:"changefreq,omitempty"`
 	Priority   float32    `xml:"priority,omitempty"`
+	// Video
+
 }
 
 // Sitemap represents a complete sitemap which can be marshaled to XML.
