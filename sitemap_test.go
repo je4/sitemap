@@ -1,7 +1,7 @@
 package sitemap_test
 
 import (
-	"github.com/snabb/sitemap"
+	"github.com/je4/sitemap"
 	"os"
 	"time"
 )
