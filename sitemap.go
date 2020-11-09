@@ -40,7 +40,7 @@ type Video struct {
 	PlayerLoc    string           `xml:"video:player_loc,omitempty"`
 	AllowEmbed   string           `xml:"video:allow_embed,omitempty"`
 	Duration     int64            `xml:"video:duration,omitempty"`
-	GalleryLoc   *GalleryLocation `xml:"gallery_loc,omitempty"`
+	GalleryLoc   *GalleryLocation `xml:"video:gallery_loc,omitempty"`
 }
 
 // URL entry in sitemap or sitemap index. LastMod is a pointer
