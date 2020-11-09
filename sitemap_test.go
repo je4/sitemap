@@ -13,7 +13,21 @@ func Example() {
 		Loc:        "http://example.com/",
 		LastMod:    &t,
 		ChangeFreq: sitemap.Daily,
+		Video: sitemap.Video{
+			ThumbnailLoc: "http://example.com/thumb.png",
+			Title:        "No Name",
+			Description:  "lorem ipsum dolor sit amet",
+			ContentLoc:   "",
+			PlayerLoc:    "",
+			AllowEmbed:   "",
+			Duration:     60,
+			GalleryLoc: sitemap.GalleryLocation{
+				Title: "Mediathek HGK",
+				Value: "https://mediathek.hgk.fhnw.ch/",
+			},
+		},
 	})
+
 	sm.WriteTo(os.Stdout)
 	// Output:
 	// <?xml version="1.0" encoding="UTF-8"?>

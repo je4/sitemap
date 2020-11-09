@@ -27,6 +27,22 @@ const (
 	Never   ChangeFreq = "never"
 )
 
+type GalleryLocation struct {
+	Title string `xml:"title,attr,omitempty"`
+	Value string `xml:",chardata,omitempty"`
+}
+
+type Video struct {
+	ThumbnailLoc string          `xml:"video:thumbnail_loc,omitempty"`
+	Title        string          `xml:"video:title,omitempty"`
+	Description  string          `xml:"video:description,omitempty"`
+	ContentLoc   string          `xml:"video:content_loc,omitempty"`
+	PlayerLoc    string          `xml:"video:player_loc,omitempty"`
+	AllowEmbed   string          `xml:"video:allow_embed,omitempty"`
+	Duration     int64           `xml:"video:duration,omitempty"`
+	GalleryLoc   GalleryLocation `xml:"gallery_loc,omitempty"`
+}
+
 // URL entry in sitemap or sitemap index. LastMod is a pointer
 // to time.Time because omitempty does not work otherwise. Loc is the
 // only mandatory item. ChangeFreq and Priority must be left empty when
@@ -36,8 +52,7 @@ type URL struct {
 	LastMod    *time.Time `xml:"lastmod,omitempty"`
 	ChangeFreq ChangeFreq `xml:"changefreq,omitempty"`
 	Priority   float32    `xml:"priority,omitempty"`
-	// Video
-
+	Video      Video      `xml:"video:video,omitempty"`
 }
 
 // Sitemap represents a complete sitemap which can be marshaled to XML.
