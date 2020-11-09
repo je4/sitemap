@@ -13,15 +13,17 @@ func Example() {
 		Loc:        "http://example.com/",
 		LastMod:    &t,
 		ChangeFreq: sitemap.Daily,
-		Video: sitemap.Video{
+		Video: &sitemap.Video{
 			ThumbnailLoc: "http://example.com/thumb.png",
 			Title:        "No Name",
 			Description:  "lorem ipsum dolor sit amet",
 			ContentLoc:   "",
-			PlayerLoc:    "",
-			AllowEmbed:   "",
-			Duration:     60,
-			GalleryLoc: sitemap.GalleryLocation{
+			PlayerLoc: &sitemap.PlayerLocation{
+				AllowEmbed: "no",
+				Value:      "",
+			},
+			Duration: 60,
+			GalleryLoc: &sitemap.GalleryLocation{
 				Title: "Mediathek HGK",
 				Value: "https://mediathek.hgk.fhnw.ch/",
 			},

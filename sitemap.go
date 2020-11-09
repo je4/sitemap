@@ -43,7 +43,6 @@ type Video struct {
 	Description  string           `xml:"video:description,omitempty"`
 	ContentLoc   string           `xml:"video:content_loc,omitempty"`
 	PlayerLoc    *PlayerLocation  `xml:"video:player_loc,omitempty"`
-	AllowEmbed   string           `xml:"video:allow_embed,omitempty"`
 	Duration     int64            `xml:"video:duration,omitempty"`
 	GalleryLoc   *GalleryLocation `xml:"video:gallery_loc,omitempty"`
 }
