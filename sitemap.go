@@ -29,7 +29,7 @@ const (
 
 type GalleryLocation struct {
 	Title string `xml:"title,attr,omitempty"`
-	Value string `xml:",chardata,omitempty"`
+	Value string `xml:",chardata"`
 }
 
 type Video struct {
