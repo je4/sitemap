@@ -32,12 +32,17 @@ type GalleryLocation struct {
 	Value string `xml:",chardata"`
 }
 
+type PlayerLocation struct {
+	AllowEmbed string `xml:"allow_embed,attr,omitempty"`
+	Value      string `xml:",chardata"`
+}
+
 type Video struct {
 	ThumbnailLoc string           `xml:"video:thumbnail_loc,omitempty"`
 	Title        string           `xml:"video:title,omitempty"`
 	Description  string           `xml:"video:description,omitempty"`
 	ContentLoc   string           `xml:"video:content_loc,omitempty"`
-	PlayerLoc    string           `xml:"video:player_loc,omitempty"`
+	PlayerLoc    *PlayerLocation  `xml:"video:player_loc,omitempty"`
 	AllowEmbed   string           `xml:"video:allow_embed,omitempty"`
 	Duration     int64            `xml:"video:duration,omitempty"`
 	GalleryLoc   *GalleryLocation `xml:"video:gallery_loc,omitempty"`
