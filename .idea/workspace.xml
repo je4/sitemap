@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e7fac4f-8a13-45c5-bbf7-e82986913573" name="Default Changelist" comment="omitempty for chardata removed">
+    <list default="true" id="5e7fac4f-8a13-45c5-bbf7-e82986913573" name="Default Changelist" comment="video to pointer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sitemap.go" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.go" afterDir="false" />
     </list>
@@ -106,7 +106,8 @@
     <MESSAGE value="snabb -&gt; je4" />
     <MESSAGE value="video added" />
     <MESSAGE value="omitempty for chardata removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="omitempty for chardata removed" />
+    <MESSAGE value="video to pointer" />
+    <option name="LAST_COMMIT_MESSAGE" value="video to pointer" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -152,17 +153,17 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="2005" height="376" key="GridCell.Tab.1.right/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604935552867" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1604937924625">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1604938410836">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604937924625" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/-1920.358.1536.824/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1604938410836" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/sitemap.go</url>
-          <line>86</line>
+          <line>88</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

@@ -60,8 +60,9 @@ type URL struct {
 // attribute correctly. Minify can be set to make the output less human
 // readable.
 type Sitemap struct {
-	XMLName xml.Name `xml:"urlset"`
-	Xmlns   string   `xml:"xmlns,attr"`
+	XMLName    xml.Name `xml:"urlset"`
+	Xmlns      string   `xml:"xmlns,attr"`
+	XmlnsVideo string   `xml:"xmlns:video,attr"`
 
 	URLs []*URL `xml:"url"`
 
@@ -71,8 +72,9 @@ type Sitemap struct {
 // New returns a new Sitemap.
 func New() *Sitemap {
 	return &Sitemap{
-		Xmlns: "http://www.sitemaps.org/schemas/sitemap/0.9",
-		URLs:  make([]*URL, 0),
+		Xmlns:      "http://www.sitemaps.org/schemas/sitemap/0.9",
+		XmlnsVideo: "http://www.google.com/schemas/sitemap-video/1.1",
+		URLs:       make([]*URL, 0),
 	}
 }
 
