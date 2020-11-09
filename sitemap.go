@@ -33,14 +33,14 @@ type GalleryLocation struct {
 }
 
 type Video struct {
-	ThumbnailLoc string          `xml:"video:thumbnail_loc,omitempty"`
-	Title        string          `xml:"video:title,omitempty"`
-	Description  string          `xml:"video:description,omitempty"`
-	ContentLoc   string          `xml:"video:content_loc,omitempty"`
-	PlayerLoc    string          `xml:"video:player_loc,omitempty"`
-	AllowEmbed   string          `xml:"video:allow_embed,omitempty"`
-	Duration     int64           `xml:"video:duration,omitempty"`
-	GalleryLoc   GalleryLocation `xml:"gallery_loc,omitempty"`
+	ThumbnailLoc string           `xml:"video:thumbnail_loc,omitempty"`
+	Title        string           `xml:"video:title,omitempty"`
+	Description  string           `xml:"video:description,omitempty"`
+	ContentLoc   string           `xml:"video:content_loc,omitempty"`
+	PlayerLoc    string           `xml:"video:player_loc,omitempty"`
+	AllowEmbed   string           `xml:"video:allow_embed,omitempty"`
+	Duration     int64            `xml:"video:duration,omitempty"`
+	GalleryLoc   *GalleryLocation `xml:"gallery_loc,omitempty"`
 }
 
 // URL entry in sitemap or sitemap index. LastMod is a pointer
@@ -52,7 +52,7 @@ type URL struct {
 	LastMod    *time.Time `xml:"lastmod,omitempty"`
 	ChangeFreq ChangeFreq `xml:"changefreq,omitempty"`
 	Priority   float32    `xml:"priority,omitempty"`
-	Video      Video      `xml:"video:video,omitempty"`
+	Video      *Video     `xml:"video:video,omitempty"`
 }
 
 // Sitemap represents a complete sitemap which can be marshaled to XML.
